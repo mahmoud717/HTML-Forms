@@ -2,5 +2,27 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: red;
+  
+}
+.nav-container{
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: whitesmoke;
+}
+.text {
+  margin: 7px 5px;
+}
+.text h6 {
+  margin: 0;
+}
+.btn button {
+  background-color: #0077c5;
+  color: white;
+  border: .5px black; 
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
 }
