@@ -58,11 +58,6 @@ body {
   height: 23px;
   margin-top: 2px;
 }
-form {
-  background-color: white;
-  border-radius: 2px;
-  padding: 30px;
-}
 .form-section {
   display: flex;
   justify-content: center;
@@ -71,6 +66,11 @@ form {
   margin: auto;
   border: solid 1px #cececf;
   border-radius: 2px;
+}
+form {
+  background-color: white;
+  border-radius: 2px;
+  padding: 30px;
 }
 
 .main-form-header h2 {
@@ -86,7 +86,7 @@ form {
   justify-content: center;
 }
 .sub-form-header h5,
-h6 {
+.sub-form-header h6 {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -100,12 +100,14 @@ span {
 .email-input,
 .phone-input,
 .password-input {
-  margin: 5px 0;
+  margin: 0;
+  display: flex;
 }
-.email-input label p,
-.phone-input label p,
-.password-input label p {
-  margin-bottom: 12px;
+.email-input label,
+.phone-input label,
+.password-input label {
+  margin: 15px 0 10px;
+  width: 100%;
 }
 .email-input label input,
 .phone-input label input,
@@ -135,7 +137,7 @@ input:enabled {
   color: white;
   font-size: 16px;
   margin-top: 10px;
-  padding: 0;
+  padding: 15px 0;
 }
 .input-btn button i {
   margin-right: 10px;
