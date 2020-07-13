@@ -19,8 +19,8 @@
 </head>
 
 <body>
-  <header class="nav">
-    <div class="nav-container">
+  <header class="flex nav">
+    <div class="flex">
       <div class="text">
         <h6>Already have an Intuit account?</h6>
         <h6>I forgot my User ID or Password</h6>
@@ -32,10 +32,10 @@
   </header>
   <main>
     <section>
-      <div class="main-logo">
+      <div class="main-logo flex">
         <img src="logo-intuit.png" alt="" />
       </div>
-      <div class="sub-logos">
+      <div class="sub-logos flex flex-center">
         <img src="icon.png" alt="" />
         <p>mint</p>
         <img src="qb_thumb.png" alt="" />
@@ -44,35 +44,36 @@
         <p>turbotax</p>
       </div>
     </section>
-    <section class="form-section">
+    <section class="form-section flex flex-center flex-column">
       <form action="post" method="get">
         <div class="main-form-header">
           <h2>Create an Intuit account</h2>
         </div>
-        <div class="sub-form-header">
-          <h5>One account for everything Intuit, including Mint.</h5>
-          <h6><span>Learn more</span></h6>
+        <div class="sub-form-header flex flex-center">
+          <h5>One account for everything Intuit.
+            <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"> Learn more</a>
+          </h5>
         </div>
-        <div class="email-input">
+        <div class="email-input flex">
           <label>
             Email address
             <input type="email" name="email" />
           </label>
         </div>
-        <div class="phone-input">
+        <div class="phone-input flex">
           <label>
             Phone (recommended)
             <input type="tel" name="tel" />
           </label>
         </div>
-        <div class="password-input">
+        <div class="password-input flex">
           <label>
             Password
             <input type="password" name="password" />
           </label>
         </div>
-        <div class="input-btn">
-          <button type="submit">
+        <div class="input-btn ">
+          <button class="flex flex-center" type="submit">
             <i class="fas fa-lock"></i>
             Create Account
           </button>
@@ -85,7 +86,7 @@
           </p>
         </div>
       </form>
-      <div class="sub-form-footer">
+      <div class="sub-form-footer flex flex-center">
         <p>
           Invisible reCAPTCHA by Google <span>Privacy Policy</span> and
           <span>Terms of Use.</span>
@@ -93,8 +94,8 @@
       </div>
     </section>
   </main>
-  <footer>
-    <div class="footer-btns">
+  <footer class="flex flex-center flex-column">
+    <div class="footer-btns flex flex-center">
       <a href="#">Legal</a>
       <a href="#">Privacy</a>
       <a href="#">Security</a>
