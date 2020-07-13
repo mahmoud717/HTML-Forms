@@ -67,7 +67,7 @@ form {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 23.5%;
+  width: 28%;
   margin: auto;
   border: solid 1px #cececf;
   border-radius: 2px;
@@ -120,17 +120,27 @@ input:enabled {
   outline: none;
 }
 
+.input-btn {
+  display: flex;
+  margin: 15px 0 30px;
+}
 .input-btn button {
   display: flex;
+  justify-content: center;
+  background: #0077c5;
+  align-items: center;
+  border: 1px black;
+  border-radius: 4px;
   width: 100%;
-  background-color: #0077c5;
-  padding: 0px;
-  border-radius: 3px;
-  margin-top: 45px;
-  margin-bottom: 20px;
   color: white;
-  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0;
 }
+.input-btn button i {
+  margin-right: 10px;
+}
+
 .main-form-footer {
   text-align: center;
   font-size: 12px;
