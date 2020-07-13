@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: "nunito", sans-serif;
   background-color: #eceef1;
+  width: 110%;
 }
 .nav-container {
   display: flex;
@@ -68,4 +69,85 @@ form {
 .form-section {
   display: flex;
   justify-content: center;
+}
+
+.main-form-header h2 {
+  text-align: center;
+  color: black;
+  margin-top: 0;
+  font-size: 25p;
+}
+
+.sub-form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-form-header h5,
+h6 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: #74757b;
+  padding: 0px;
+  font-size: 14px;
+}
+span {
+  color: #0077c5;
+}
+.email-input,
+.phone-input,
+.password-input {
+  margin: 5px 0;
+}
+.email-input label p,
+.phone-input label p,
+.password-input label p {
+  margin-bottom: 12px;
+}
+.email-input label input,
+.phone-input label input,
+.password-input label input {
+  width: 98%;
+  height: 32px;
+  border: 1px solid #c9cccf;
+  border-radius: 3px;
+}
+input:active,
+input:enabled {
+  outline: none;
+}
+
+.input-btn button {
+  display: flex;
+  width: 100%;
+  background-color: #0077c5;
+  padding: 0px;
+  border-radius: 3px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  color: white;
+  cursor: pointer;
+}
+.main-form-footer {
+  text-align: center;
+  font-size: 12px;
+}
+.main-form-footer a {
+  text-decoration: none;
+}
+footer {
+  background: gainsboro;
+  width: 100%;
+}
+.sub-form-footer {
+  text-align: center;
+  font-size: 9px;
+  background: #cececf;
+  padding: 20px;
+  margin-bottom: 0;
+  margin-top: 35px;
+}
+.sub-form-footer a {
+  text-decoration: none;
 }
