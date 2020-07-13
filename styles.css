@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nunito", sans-serif;
+  background-color: #eceef1;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.nav {
+  justify-content: flex-end;
+}
+
+.text {
+  margin: 15px 5px;
+}
+
+.text :last-child {
+  color: #0077c5;
+}
+
+.text h6 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.btn button {
+  background-color: #0077c5;
+  color: white;
+  border: 1px black;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 10px 30px 0 0;
+}
+
+.btn button i {
+  margin-right: 5px;
+}
+
+.main-logo {
+  margin: 10px 10px 0 0;
+}
+
+.main-logo img {
+  width: 160px;
+  margin: auto;
+}
+
+.sub-logos p {
+  margin: 0 7px 20px 7px;
+  font-size: 20px;
+  color: #74757b;
+}
+
+.sub-logos img {
+  width: 23px;
+  height: 23px;
+  margin-top: 2px;
+}
+
+.form-section {
+  width: 28%;
+  margin: auto;
+  border: solid 1px #cececf;
+  border-radius: 2px;
+}
+
+form {
+  background-color: white;
+  border-radius: 2px;
+  padding: 30px;
+}
+
+.main-form-header h2 {
+  text-align: center;
+  color: black;
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.sub-form-header h5 {
+  margin: 0;
+  color: #74757b;
+  padding: 0;
+  font-size: 14px;
+}
+
+.learn-more {
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+span {
+  color: #0077c5;
+}
+
+input:active,
+input:focus {
+  outline: none;
+}
+
+.email-input,
+.phone-input,
+.password-input {
+  margin: 0;
+}
+
+.email-input label,
+.phone-input label,
+.password-input label {
+  margin: 15px 0 10px;
+  width: 100%;
+}
+
+.email-input label input,
+.phone-input label input,
+.password-input label input {
+  width: 98%;
+  height: 32px;
+  border: 1px solid #c9cccf;
+  border-radius: 3px;
+}
+
+.input-btn {
+  margin: 15px 0 30px;
+}
+
+.input-btn button {
+  background: #0077c5;
+  align-items: center;
+  border: 1px black;
+  border-radius: 4px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 15px 0;
+}
+
+.input-btn button i {
+  margin-right: 10px;
+}
+
+.main-form-footer {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.sub-form-footer {
+  align-items: center;
+  font-size: 10px;
+  margin: 8px 0;
+  background-color: #eceef1;
+  border: black 1px;
+  color: #74757b;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #3a3a3b;
+}
+
+.footer-btns {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.footer-btns a {
+  padding: 0;
+  margin: 0 7px;
+  text-decoration: none;
+}
+
+footer:last-child {
+  padding: 0;
+}
