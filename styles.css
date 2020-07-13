@@ -97,7 +97,7 @@ form {
   font-size: 14px;
 }
 
-.sub-form-header h5 a {
+.learn-more {
   color: #0077c5;
   text-decoration: none;
   font-size: 12px;
@@ -158,10 +158,6 @@ input:focus {
   text-align: center;
   font-size: 12px;
   font-style: italic;
-}
-
-.main-form-footer a {
-  text-decoration: none;
 }
 
 .sub-form-footer {
